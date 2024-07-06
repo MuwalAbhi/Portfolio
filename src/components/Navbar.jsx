@@ -20,7 +20,7 @@ function Navbar() {
     },
     {
       id: 4,
-      text: "Experiance",
+      text: "Experience",
     },
     {
       id: 5,
@@ -44,7 +44,7 @@ function Navbar() {
             <ul className="hidden md:flex space-x-8">
               {navItems.map(({ id, text }) => (
                 <li
-                  className="hover:scale-105 duration-200 cursor-pointer"
+                  className="hover:scale-105  duration-200 cursor-pointer"
                   key={id}
                 >
                   <Link
@@ -66,11 +66,11 @@ function Navbar() {
         </div>
         {/* mobile navbar */}
         {menu && (
-          <div className="bg-white">
-            <ul className="md:hidden flex flex-col h-screen items-center justify-center space-y-3 text-xl">
+          <div className="bg-white ">
+            <ul className="md:hidden flex flex-col h-screen items-center justify-center space-y-3  text-xl">
               {navItems.map(({ id, text }) => (
                 <li
-                  className="hover:scale-105 duration-200 font-semibold cursor-pointer"
+                  className="hover:scale-105 duration-200  font-semibold cursor-pointer"
                   key={id}
                 >
                   <Link
