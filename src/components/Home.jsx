@@ -23,6 +23,7 @@ function Home() {
       >
         <div className="flex flex-col md:flex-row">
           <div className="md:w-1/2 mt-12 md:mt-24 space-y-2 order-2 md:order-1">
+          <br /> <br /><br />
             <span className="text-xl">Welcome In My Feed</span>
             <div className="flex space-x-1 text-2xl md:text-4xl">
               <h1>Hello, I'm a</h1>
@@ -35,7 +36,7 @@ function Home() {
                 loop={true}
               />
             </div>
-            <br />
+            <br /> <br /> <br />
             <p className="text-sm md:text-lg text-justify">
               I am Abhishek Muwal, a passionate web developer.
               Here I have shared my education, projects and experience.
@@ -78,6 +79,8 @@ function Home() {
                 </div>
               </div>
             </div>
+         
+        
           </div>
           <div className="md:w-1/2 md:ml-48 md:mt-20 mt-8 order-1">
             <img
